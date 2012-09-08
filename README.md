@@ -6,6 +6,14 @@ A new implementation of [klogd](https://github.com/leandrosilva/klogd) but in Ja
 
 Klog is nothing but a simple program to stream [Syslog](http://www.syslog.org) messages to a [Kafka](http://incubator.apache.org/kafka) server.
 
+My motivation, as I said on [my recent blog post](http://leandrosilva.com.br/2012/09/06/klogd-what-about-route-syslog-messages-to-kafka), is that:
+
+* Syslog is the standard bucket for logs on Unix-like operational systems;
+* There are many legacy applications which use it and cannot be changed to use something else;
+* I sought for a way to route Syslog messages to Kafka, but unfortunately I didn’t find anything.
+
+So I decided to try. And this is actually my second try, **klogd2**.
+
 ## Why a new version?
 
 I'd want to try [Syslog4j](http://syslog4j.org) on the server side, because I know it's a rock solid stuff and all those cool kids are using it, e.g. [Graylog2](http://graylog2.org).
