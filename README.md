@@ -16,7 +16,7 @@ So I decided to try. And this is actually my second try, **klogd2**.
 
 ## Why a new version?
 
-I'd want to try [Syslog4j](http://syslog4j.org) on the server side, because I know it's a rock solid stuff and all those cool kids are using it, e.g. [Graylog2](http://graylog2.org).
+I'd want to try [Syslog4j](http://syslog4j.org) on the server side, because I know it's a rock solid stuff and all those cool kids are using it, e.g. [Graylog2](http://graylog2.org). So I decided to give myself a second time to fun and just wrote **klogd2**, which is also dumb simple like its older brother. But I'm planning to give it a chance to evolve.
 
 ## Getting Started
 
